@@ -10,7 +10,6 @@ var proxy = builder.Configuration.GetSection("ReverseProxy");
 builder.Services.AddReverseProxy()
     .LoadFromConfig(proxy);
 
-// Add additional services like logging, authentication, etc.
 builder.Services.AddLogging();
 var app = builder.Build();
 // Use YARP middleware to handle proxy requests
