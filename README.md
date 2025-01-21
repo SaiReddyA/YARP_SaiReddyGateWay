@@ -16,5 +16,5 @@ This project demonstrates how to set up an API Gateway using **YARP (Yet Another
 ## Setup Instructions
 ### Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/SaiReddyA/YARP_SaiReddyGateWay.git
+cd YARP_SaiReddyGateWay
