@@ -1,0 +1,6 @@
+@YARP_SaiReddyGateWayAPI_HostAddress = http://localhost:5065
+
+GET {{YARP_SaiReddyGateWayAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
