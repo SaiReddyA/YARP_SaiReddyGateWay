@@ -18,3 +18,10 @@ This project demonstrates how to set up an API Gateway using **YARP (Yet Another
 ```bash
 git clone https://github.com/SaiReddyA/YARP_SaiReddyGateWay.git
 cd YARP_SaiReddyGateWay
+
+###Project Structure
+Gateway Project: The main YARP-based gateway application.
+Backend Services: Example services for Students and Teachers.
+###Known Issues
+502 Bad Gateway: Occurs if backend services are not running or incorrectly configured.
+Route Matching Issues: Ensure paths in appsettings.json match backend service endpoints.
