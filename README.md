@@ -21,9 +21,9 @@ git clone https://github.com/SaiReddyA/YARP_SaiReddyGateWay.git
 cd YARP_SaiReddyGateWay
 ```
 Project Structure
-Gateway Project: The main YARP-based gateway application.
-Backend Services: Example services for Students and Teachers.
+- Gateway Project: The main YARP-based gateway application.
+- Backend Services: Example services for Students and Teachers.
 Known Issues
-502 Bad Gateway: This occurs if backend services are not running or are incorrectly configured.
-Route Matching Issues: Ensure paths in appsettings.json match backend service endpoints.
+- 502 Bad Gateway: This occurs if backend services are not running or are incorrectly configured.
+= Route Matching Issues: Ensure paths in appsettings.json match backend service endpoints.
 
